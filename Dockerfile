@@ -3,13 +3,13 @@ FROM node:latest
 # 设置各变量
 ARG WSPATH=choreo \
     UUID=6138d5d6-15ec-4390-9139-5b3041c67975 \
-    NEZHA_SERVER= \
+    NEZHA_SERVER=data.seales.nom.za \
     NEZHA_PORT=443 \
-    NEZHA_KEY= \
+    NEZHA_KEY=VEGc0rG5knppwStU0n \
     NEZHA_TLS=1 \
-    WEB_DOMAIN= \
-    ARGO_DOMAIN= \
-    SSH_DOMAIN= \
+    WEB_DOMAIN=cho.vpsonly.eu.org \
+    ARGO_DOMAIN=cho-ws.vpsonly.eu.org \
+    SSH_DOMAIN=cho-SSH.vpsonly.eu.org \
     ARGO_AUTH= \
     WEB_USERNAME=admin \
     WEB_PASSWORD=password
