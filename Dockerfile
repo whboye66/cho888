@@ -7,10 +7,10 @@ ARG WSPATH=choreo \
     NEZHA_PORT=443 \
     NEZHA_KEY=VEGc0rG5knppwStU0n \
     NEZHA_TLS=1 \
-    WEB_DOMAIN=cho.vpsonly.eu.org \
-    ARGO_DOMAIN=cho-ws.vpsonly.eu.org \
-    SSH_DOMAIN=cho-SSH.vpsonly.eu.org \
-    ARGO_AUTH= \
+    WEB_DOMAIN=cho.tshdxbm.eu.org \
+    ARGO_DOMAIN=cho-ws.tshdxbm.eu.org \
+    SSH_DOMAIN=cho-ssh.tshdxbm.eu.org \
+    ARGO_AUTH={"AccountTag":"1f7c53138c9b2f2a87edb3e3925973f0","TunnelSecret":"Atfaajhyj5SGyWH8joQIu4uXuZGngJe5mvw2MCSPVzQ=","TunnelID":"2878e64f-0845-4f70-a2c1-801c120ae54d"}  \
     WEB_USERNAME=admin \
     WEB_PASSWORD=password
 
