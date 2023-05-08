@@ -1,18 +1,18 @@
 FROM node:latest
 
 # 设置各变量
-ARG WSPATH= \
-    UUID= \
+ARG WSPATH=choreo \
+    UUID=6138d5d6-15ec-4390-9139-5b3041c67975 \
     NEZHA_SERVER= \
-    NEZHA_PORT= \
+    NEZHA_PORT=443 \
     NEZHA_KEY= \
-    NEZHA_TLS= \
+    NEZHA_TLS=1 \
     WEB_DOMAIN= \
     ARGO_DOMAIN= \
     SSH_DOMAIN= \
     ARGO_AUTH= \
-    WEB_USERNAME= \
-    WEB_PASSWORD=
+    WEB_USERNAME=admin \
+    WEB_PASSWORD=password
 
 # 此处不用改，保留即可
 ENV NEZHA_SERVER=$NEZHA_SERVER \
